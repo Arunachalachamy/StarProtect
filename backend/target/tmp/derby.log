@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Aug 09 09:30:24 UTC 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0198-8e2a-c571-000005ae2268 
+on database directory /home/ubuntu/derbydb/insuranceDB with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@568db2f2 
+Loaded from jar:nested:/workspace/backend/target/insurance-backend-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/derby-10.14.2.0.jar!/
+java.vendor=Ubuntu
+java.runtime.version=21.0.7+6-Ubuntu-0ubuntu125.04
+user.dir=/workspace/backend/target/tmp
+os.name=Linux
+os.arch=amd64
+os.version=6.1.147
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
