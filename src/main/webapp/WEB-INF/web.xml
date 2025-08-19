@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+	version="5.0">
+
+	<display-name>Electricity Bill Management</display-name>
+
+	<context-param>
+		<param-name>DERBY_DB_PATH</param-name>
+		<param-value>${catalina.base}/ebms-db</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>com.ebms.bootstrap.DatabaseBootstrapListener</listener-class>
+	</listener>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
